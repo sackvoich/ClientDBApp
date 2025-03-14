@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Детали заказа №{{ order.id }}</h1>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Информация о заказе</h5>
+            <p class="card-text"><strong>Сотрудник:</strong> {{ order.employee_name }}</p>
+            <p class="card-text"><strong>Товар:</strong> {{ order.product_name }}</p>
+            <p class="card-text"><strong>Клиент:</strong> {{ order.client_company }}</p>
+            <p class="card-text"><strong>Заказчик:</strong> {{ order.customer_name }}</p>
+            <p class="card-text"><strong>Сумма заказа:</strong> {{ order.order_amount }}</p>
+            <p class="card-text"><strong>Дата заказа:</strong> {{ order.order_date|date:"d.m.Y H:i" }}</p>
+            <a href="{% url 'orders_list' %}" class="btn btn-secondary">Назад к списку</a>
+        </div>
+    </div>
+{% endblock %}
