@@ -4,3 +4,4 @@ orders_project/__pycache__
 orders_project/settings.py
 venv
 orders_project/orders_project/__pycache__
+.env
