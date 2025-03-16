@@ -126,6 +126,7 @@
 
 ```bash
 python manage.py createsuperuser
+```
 
 ## Вклад
 
