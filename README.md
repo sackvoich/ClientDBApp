@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9d9f298f-5b45-4d9f-b3c4-c48af1d2bfd3)# Orders Project
+# Orders Project
 
 ## Описание
 
@@ -138,10 +138,6 @@ python manage.py createsuperuser
 ## Пример использования
 
 ![image](https://github.com/user-attachments/assets/b4d6bdde-e903-48fd-8a30-145fb4d9c051)
-![image](https://github.com/user-attachments/assets/91b7e2e8-74ea-487e-932a-a6a8e0b94338)
-![image](https://github.com/user-attachments/assets/892f08cb-e21e-43ce-8686-b94074d914d0)
-![image](https://github.com/user-attachments/assets/6485b752-bfac-4c31-acba-71e52723bc28)
-![image](https://github.com/user-attachments/assets/de38ce44-b595-45ca-8f50-e3fb0944c464)
 
 
 ## Вклад
